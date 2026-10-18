@@ -16,6 +16,7 @@ def Calculate():
         return "0"
     lcd=0
     lcd=(x*y)/math.gcd(x,y)
+    result = int(lcd)
     return str(lcd)
 
 
