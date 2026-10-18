@@ -17,7 +17,7 @@ def Calculate():
     lcd=0
     lcd=(x*y)/math.gcd(x,y)
     result = int(lcd)
-    return str(lcd)
+    return str(result)
 
 
 if __name__ == '__main__':
