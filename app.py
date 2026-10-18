@@ -14,6 +14,7 @@ def Calculate():
         return "NaN"
     if x==0 or y==0:
         return "0"
+    lcd=0
     lcd=(x*y)/math.gcd(x,y)
     return str(lcd)
 
