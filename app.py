@@ -13,11 +13,7 @@ def Calculate():
         return "NaN"
     if x==0 or y==0:
         return "0"
-    lcm=max(x,y)
-    while lcm % x!=0 or lcm % y!=0:
-
-            lcm += 1
-
+     lcd=(x*y)/math.gcd(x,y)
     return str(lcm)
 
 
