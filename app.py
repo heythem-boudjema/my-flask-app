@@ -15,9 +15,9 @@ def Calculate():
     if x==0 or y==0:
         return "0"
     lcd=0
-    lcd=(x*y)/math.gcd(x,y)
-    result = int(lcd)
-    return str(result)
+    lcd=(x//math.gcd(x,y))*y
+    
+    return str(lcd)
 
 
 if __name__ == '__main__':
