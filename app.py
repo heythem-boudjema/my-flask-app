@@ -1,5 +1,3 @@
-from asyncio.windows_events import NULL
-
 from flask import Flask, request
 
 app = Flask(__name__)
